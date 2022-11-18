@@ -11,7 +11,7 @@ nuget Fable.HtmlConverter
 
 nuget Thoth.Json
 
-git https://github.com/ionide/ionide-fsgrammar.git master
+git https://github.com/kant2002/ionide-fsgrammar.git головна
 
 github ionide/ionide-vscode-helpers:7da920c71e4f94240a55aabb555327ebef4b653d src/Fable.Import.VSCode.fs
 github ionide/ionide-vscode-helpers:7da920c71e4f94240a55aabb555327ebef4b653d src/Helpers.fs

@@ -324,7 +324,7 @@ let initTargets () =
                 Trace.tracefn $"No FSAC binaries found for {tfm}")
 
     Target.create "CopyGrammar" (fun _ ->
-        let fsgrammarDir = "paket-files/github.com/ionide/ionide-fsgrammar/grammars"
+        let fsgrammarDir = "paket-files/github.com/kant2002/ionide-fsgrammar/grammars"
         let fsgrammarRelease = "release/syntaxes"
 
         copyGrammar fsgrammarDir fsgrammarRelease)
